@@ -6,7 +6,7 @@ function calculate(){
   var text1 = "";
   var i;
   for (i = 1; i < 10; i++) {
-    text += int+ " x " + i + " = " + int*i +"<br>"+"<br>";
+    text = text + int+ " x " + i + " = " + int*i +"<br>"+"<br>";
   }
   for (i = 1; i < 10; i++) {
     text1 += "<li>"+ int+ " x " + i + " = " + int*i +"</li>"+"<br>";
